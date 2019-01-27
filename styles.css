@@ -31,36 +31,8 @@ body {
   float: left;
 }
 
-.topbar-nav:hover, #signin-div:hover {
-  border-bottom: 3px solid rgb(17,103,168)
-}
-
-.news:hover {
-  border-bottom: 3px solid red;
-}
-
-.sport:hover {
-  border-bottom: 3px solid blue;
-}
-
-.weather:hover {
-  border-bottom: 3px solid yellow;
-}
-
-.iplayer:hover {
-  border-bottom: 3px solid green;
-}
-
-.tv:hover {
-  border-bottom: 3px solid pink;
-}
-
-.more:hover {
-  border-bottom: 3px solid skyblue;
-}
-
-.search:hover {
-  border-bottom: none;
+*/.topbar-nav:hover, #signin-div:hover {
+  border-bottom: 3px solid rgb(17,103,168)*/
 }
 
 #signin-text {
