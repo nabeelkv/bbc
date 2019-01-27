@@ -1,0 +1,141 @@
+
+/* 1 get rid of browser default values */
+body {
+  font-family: Arial, Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+#topbar {
+  width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+#logo {
+  width: 80px;
+  margin: 8px 8px 8px 0;
+  float: left;
+}
+
+.topbar-nav {
+  border-left: 1px solid #cccccc;
+  float: left;
+  height: 100%;
+}
+
+#signin-icon {
+  width: 23px;
+  margin: 8px 13px 6px 13px;
+  /* #ff0000; Turning point!!! I have confusion with padding & margin line: 28 */
+  float: left;
+}
+
+.topbar-nav:hover, #signin-div:hover {
+  border-bottom: 3px solid rgb(17,103,168)
+}
+
+.news:hover {
+  border-bottom: 3px solid red;
+}
+
+.sport:hover {
+  border-bottom: 3px solid blue;
+}
+
+.weather:hover {
+  border-bottom: 3px solid yellow;
+}
+
+.iplayer:hover {
+  border-bottom: 3px solid green;
+}
+
+.tv:hover {
+  border-bottom: 3px solid pink;
+}
+
+.more:hover {
+  border-bottom: 3px solid skyblue;
+}
+
+.search:hover {
+  border-bottom: none;
+}
+
+#signin-text {
+  font-weight: bold;
+  font-size: 13px;
+  /* margin-bottom: 10px; Here 'margin top' not work because I suspect margin top not work within span selector instead i need to use position property */
+  position: relative;
+  top: 11px;
+  padding-right: 50px;
+}
+
+#wigglyline {
+  float: left;
+  height: 40px;
+  /* Here 40px height coz this selector of parent selector which is "topbar" set this px otherwise the image will large. */
+  /* margin-left: 20px;  this commented coz line 40: padding-right: 50px; what rob added */
+}
+
+.topbar-menu {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 13px 15px 0 15px;
+  height: 27px;
+  /* Watch the first video of BBc 28:36 minute padding declaration doesn't help but
+  we put Height 27 px (the hights its gonna be plus the padding (13px padding + height 27px according parent class line: topbar)) */
+}
+
+#more-icon {
+  margin-left: 30px;
+  margin-bottom: 2px;
+  width: 7px;
+}
+
+#searchbox {
+  background-color: #E4E4E4;
+  border: none;
+  padding: 6px;
+  margin: 8px 0px 1px 15px;
+  float: left;
+}
+
+#search-ico {
+  background-color: #E4E4E4;
+  height: 16px;
+  padding: 6px 6px 3px 6px;
+  float: left;
+  margin: 8px 5px 0 0;
+}
+
+input::placeholder {
+  color: inherit;
+  font-weight: bold;
+}
+
+.clear {
+  clear: both;
+}
+
+#title-bar {
+  background-color: #BB1919;
+  width: 100%;
+  height: 70px;
+}
+
+#title-text {
+  width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+  color: white;
+  font-size: 40px;
+  padding-top: 13px;
+}
